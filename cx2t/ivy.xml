@@ -16,5 +16,8 @@
     <dependency org="net.consensys.cava" name="cava-toml" rev="0.3.1"/>
     <dependency org="org.jacoco" name="org.jacoco.ant" rev="0.8.2" />
     <dependency org="org.ow2.asm" name="asm" rev="6.2.1"/>
+    <dependency org="com.google.protobuf" name="protobuf-java" rev="3.9.1"/>
+    <dependency org="com.google.protobuf" name="protobuf-java-util" rev="3.9.1"/>
+    <dependency org="javax.json" name="javax.json-api" rev="1.0"/>
   </dependencies>
 </ivy-module>

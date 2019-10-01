@@ -64,7 +64,6 @@ set(
   "${CMAKE_SOURCE_DIR}/omni-compiler/C-BackEnd/build/om-c-back.jar"
 )
 
-
 #
 # Third party libraries
 #
@@ -93,6 +92,18 @@ set(ASM_BUILD "${CMAKE_SOURCE_DIR}/cx2t/lib/${ASM}:${CMAKE_SOURCE_DIR}/cx2t/lib/
 set(TOML_NAME "cava-toml")
 set(TOML "${CLAW_X2T_JAR_INSTALL_PATH}/${TOML_NAME}.jar")
 set(BUILD_TOML "${CMAKE_SOURCE_DIR}/cx2t/lib/${TOML_NAME}.jar")
+
+set(PROTOBUF_NAME "com.googe.protobuf-3.9.1")
+set(PROTOBUF "${CLAW_X2T_JAR_INSTALL_PATH}/${PROTOBUF_NAME}.jar")
+set(BUILD_PROTOBUF "${CMAKE_SOURCE_DIR}/cx2t/lib/${PROTOBUF_NAME}.jar")
+
+set(PROTOBUF_UTILS_NAME "protobuf-java-util-3.9.1")
+set(PROTOBUF_UTILS "${CLAW_X2T_JAR_INSTALL_PATH}/${PROTOBUF_UTILS_NAME}.jar")
+set(BUILD_PROTOBUF_UTILS "${CMAKE_SOURCE_DIR}/cx2t/lib/${PROTOBUF_UTILS_NAME}.jar")
+
+set(GSON_NAME "gson-2.7")
+set(GSON "${CLAW_X2T_JAR_INSTALL_PATH}/${GSON_NAME}.jar")
+set(BUILD_GSON "${CMAKE_SOURCE_DIR}/cx2t/lib/${GSON_NAME}.jar")
 
 set(FPP "${CMAKE_Fortran_COMPILER}")
 set(CPP_OPT "${FPPFLAGS}")

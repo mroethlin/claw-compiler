@@ -29,6 +29,10 @@
         <pathelement path="${commoncli.dep}"/>
         <pathelement path="${omni.xcodeml-common.dep}"/>
         <pathelement path="${toml.dep}"/>
+        <pathelement path="${protobuf.dep}"/>
+        <pathelement path="${protobuf-utils.dep}"/>
+        <pathelement path="${gson.dep}"/>
+        <pathelement path="${javax-json.dep}"/>
     </path>
 
     <path id="antlr.path">

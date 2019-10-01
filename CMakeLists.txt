@@ -46,7 +46,7 @@ if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 endif(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 
 # Set ant to be verbose
-if(ANT_VERBOSE)
+if(true)
   set(ANT_FLAGS "-v")
 endif()
 
